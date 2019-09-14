@@ -7,7 +7,7 @@ df = pd.read_csv('static/data/students.csv')
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('\')
 def index():
     # Student 1: Change this plot to a bar chart
     df.plot()
